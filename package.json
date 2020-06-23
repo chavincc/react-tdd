@@ -4,7 +4,7 @@
   "description": "tdd class",
   "main": "index.js",
   "scripts": {
-    "test": "npm test"
+    "test": "jest --watchAll"
   },
   "repository": {
     "type": "git",
@@ -21,5 +21,13 @@
   "homepage": "https://github.com/chavincc/react-tdd#readme",
   "devDependencies": {
     "jest": "^26.0.1"
+  },
+  "dependencies": {
+    "@babel/plugin-transform-runtime": "^7.10.3",
+    "@babel/preset-env": "^7.10.3",
+    "@babel/preset-react": "^7.10.1",
+    "@babel/runtime": "^7.10.3",
+    "react": "^16.13.1",
+    "react-dom": "^16.13.1"
   }
 }
