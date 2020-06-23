@@ -1,0 +1,25 @@
+{
+  "name": "react-tdd",
+  "version": "1.0.0",
+  "description": "tdd class",
+  "main": "index.js",
+  "scripts": {
+    "test": "npm test"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/chavincc/react-tdd.git"
+  },
+  "keywords": [
+    "tdd"
+  ],
+  "author": "chavincc",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/chavincc/react-tdd/issues"
+  },
+  "homepage": "https://github.com/chavincc/react-tdd#readme",
+  "devDependencies": {
+    "jest": "^26.0.1"
+  }
+}
