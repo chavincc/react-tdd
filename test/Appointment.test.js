@@ -39,4 +39,16 @@ describe("AppointmentsDayView", () => {
     render(<AppointmentsDayView appointments={[]} />);
     expect(container.querySelector("div#appointmentsDayView")).not.toBeNull();
   });
+
+  it("render item in appointments into ol", () => {
+    const today = new Date();
+    const appointments = [
+      { startTime: today.setHours(13, 0) },
+      { startTime: today.setHours(12, 0) },
+    ];
+
+    render(<AppointmentsDayView appointments={appointments} />);
+    expect(container.querySelector("ol")).not.toBeNull();
+    expect(container.querySelector("ol").children).toHaveLength(2);
+  });
 });
